@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+  
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+  
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  
+  main {
+    flex: 1;
+    padding: 20px;
+    background: url('https://static.wikia.nocookie.net/finalfantasy/images/c/c0/Sector_7_Slums_from_FFVII_Remake.jpg/revision/latest/scale-to-width-down/1000?cb=20200522045602') no-repeat center center fixed; 
+    background-size: cover; // This will allow you to set a background image later
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+  
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+  
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+  
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  
